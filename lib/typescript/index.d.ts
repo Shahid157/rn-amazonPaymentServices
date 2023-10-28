@@ -6,5 +6,5 @@ export declare const CustomCheckoutView: (props: customCheckoutViewProps) => imp
 export declare const StandardCheckout: (props: standardCheckoutViewProps) => import("react").ReactElement<any, any> | null;
 export declare const DirectPayButton: (props: customCheckoutViewProps) => import("react").ReactElement<any, any> | null;
 export declare const getDeviceId: typeof getSDKDeviceId;
-export declare type FortRequestObject = RequestObject;
-export declare type FortRequestObjectDirectPay = RequestObjectDirectPay;
+export type FortRequestObject = RequestObject;
+export type FortRequestObjectDirectPay = RequestObjectDirectPay;

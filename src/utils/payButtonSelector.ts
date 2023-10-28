@@ -22,14 +22,8 @@ const isIOS = Platform.OS === 'ios';
 
 const payButtonSelector = (payButtonProps: payButtonPropTypes) => {
   const iosButtonProps = {
-    marginLeft: defaultOrValue(
-      BUTTON_MARGIN_LEFT,
-      payButtonProps?.marginLeft
-    ),
-    marginTop: defaultOrValue(
-      BUTTON_MARGIN_TOP,
-      payButtonProps?.marginTop
-    ),
+    marginLeft: defaultOrValue(BUTTON_MARGIN_LEFT, payButtonProps?.marginLeft),
+    marginTop: defaultOrValue(BUTTON_MARGIN_TOP, payButtonProps?.marginTop),
     backgroundColor: checkColorOrDefault(
       BUTTON_COLOR,
       payButtonProps?.backgroundColor

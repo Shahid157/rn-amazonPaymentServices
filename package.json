@@ -1,7 +1,7 @@
 {
-  "name": "rn-amazon-payment-services",
-  "version": "0.2.3",
-  "description": "Amazon Payment Services Sdk react native package",
+  "name": "react-native-amazon-payment-services",
+  "version": "0.0.2",
+  "description": "Amazon Payment Services Sdk react native",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
   "types": "lib/typescript/index.d.ts",
@@ -34,15 +34,14 @@
   "keywords": [
     "react-native",
     "ios",
-    "android"
+    "android",
+    "amazon-payment-services",
+    "payment-services",
+    "amazon"
   ],
-  "repository": "https://github.com/payfort/rn-amazonpaymentservices.git",
-  "author": "amazonpaymentservicesteam <pluginsaps@amazon.ae> (https://paymentservices.amazon.com/)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/payfort/rn-amazonpaymentservices.git/issues"
-  },
-  "homepage": "https://github.com/payfort/rn-amazonpaymentservices.git#readme",
+  "repository": "https://github.com/Shahid157/rn-amazonPaymentServices",
+  "author": "ShahidChawdhary",
+  "homepage": "https://github.com/Shahid157/rn-amazonPaymentServices",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },

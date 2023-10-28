@@ -1,11 +1,14 @@
-# rn-amazon-payment-services
+# react-native-amazon-payment-services
 
-Amazon Payment Service Sdk react native package
+Amazon Payment Service Sdk react native
+#### TFS creation 
+
+
 
 ## Installation
 
 ```sh
-npm install rn-amazon-payment-services
+npm install react-native-amazon-payment-services
 ```
 
 #### Android
@@ -60,7 +63,7 @@ import {
   getDeviceId,
   FortRequestObject,
   StandardCheckout,
-} from 'rn-amazon-payment-services';
+} from 'react-native-amazon-payment-services';
 
 // ...
 
@@ -146,7 +149,7 @@ export default function App() {
 ```js
 import {
   CustomCheckoutView,
-} from 'rn-amazon-payment-services';
+} from 'react-native-amazon-payment-services';
 
 
 // ...
@@ -186,7 +189,7 @@ import {
 import {
   DirectPayButton,
   FortRequestObjectDirectPay,
-} from 'rn-amazon-payment-services';
+} from 'react-native-amazon-payment-services';
 
 //...
 
@@ -262,16 +265,12 @@ import {
 | order_description    | Alphanumeric | A description of the order.<br>Special characters:'/ . _ - # : $ Space                                                                                                                                                                                                             | No        | 150     | iPhone 6-S                                                            |
 | customer_ip          | Alphanumeric | It holds the customer’s IP address. *It’s Mandatory, if the fraud service is active. *We support IPv4 and IPv6 as shown in the example below.                                                                                                                                      | No        | 45      | IPv4 → 192.178.1.10<br>IPv6 → 2001:0db8:3042:0002:5a55:caff:fef6:bdbf |
 | customer_name        | Alpha        | The customer’s name.<br>Special characters: _ \ / - .'                                                                                                                                                                                                                             | No        | 40      | John Smith                                                            |
-| phone_number         | Alphanumeric | The customer’s phone number.<br>Special characters: + - ( ) Space                                                                                                                                                                                                                  | No        | 19      | 00962797219966                                                        |
+| phone_number         | Alphanumeric | The customer’s phone number.<br>Special characters: + - ( ) Space                                                                                                                                                                                                                  | No        | 19      | 1234567890789                                                        |
 | settlement_reference | Alphanumeric | The Merchant submits unique value to Amazon Payment Services. The value is then passed to the Acquiring bank and displayed to the merchant in the Acquirer settlement file.                                                                                                        | No        | 34      | XYZ9239-yu898                                                         |
-| merchant_extra1      | Alphanumeric | Extra data sent by merchant. Will be received and sent back as received. Will not be displayed in any report.                                                                                                                                                                      | No        | 250     | JohnSmith                                                             |
-| merchant_extra2      | Alphanumeric | Extra data sent by merchant. Will be received and sent back as received. Will not be displayed in any report.                                                                                                                                                                      | No        | 250     | JohnSmith                                                             |
-| merchant_extra3      | Alphanumeric | Extra data sent by merchant. Will be received and sent back as received. Will not be displayed in any report.                                                                                                                                                                      | No        | 250     | JohnSmith                                                             |
-| merchant_extra4      | Alphanumeric | Extra data sent by merchant. Will be received and sent back as received. Will not be displayed in any report.                                                                                                                                                                      | No        | 250     | JohnSmith                                                             |
-| merchant_extra5      | Alphanumeric | Extra data sent by merchant. Will be received and sent back as received. Will not be displayed in any report.                                                                                                                                                                      | No        | 250     | JohnSmith                                                             |
+| merchant_extra1      | Alphanumeric | Extra data sent by merchant. Will be received and sent back as received. Will not be displayed in any report.                                                                                                                                                                      | No        | 250     | TFS                                                             |
+| merchant_extra2      | Alphanumeric | Extra data sent by merchant. Will be received and sent back as received. Will not be displayed in any report.                                                                                                                                                                      | No        | 250     | TFS                                                             |
+| merchant_extra3      | Alphanumeric | Extra data sent by merchant. Will be received and sent back as received. Will not be displayed in any report.                                                                                                                                                                      | No        | 250     | TFS                                                             |
+| merchant_extra4      | Alphanumeric | Extra data sent by merchant. Will be received and sent back as received. Will not be displayed in any report.                                                                                                                                                                      | No        | 250     | Team TFS                                                               |
+| merchant_extra5      | Alphanumeric | Extra data sent by merchant. Will be received and sent back as received. Will not be displayed in any report.                                                                                                                                                                      | No        | 250     | 
+TFS                                                            |
 
-
-
-## License
-
-MIT
